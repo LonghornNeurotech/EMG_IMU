@@ -22,4 +22,18 @@ Include Video/photos here showing the project in action
 Places Images, system flowcharts, circuit diagrams, etc. how the project works
 
 ## Setup
-Include step by step setup instructions for the project
+
+### Software
+
+The Raspberry Pi IMU gesture-recognition software is located in
+[`Code/Python/imu_gesture_recognition`](./Code/Python/imu_gesture_recognition/).
+
+From the repository root:
+
+```powershell
+cd ".\Code\Python\imu_gesture_recognition"
+uv sync
+```
+
+See the software project README for its dataset structure, utilities, and
+execution instructions.
